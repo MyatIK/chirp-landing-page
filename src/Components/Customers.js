@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import like from '../Assets/Like.svg';
 import twitter from '../Assets/Twitter (Blue).svg';
+import Stack from 'react-bootstrap/Stack';
 
 function Customers(props){
     return(
@@ -28,10 +29,14 @@ function Customers(props){
             </Row>
             <Row>
                 <Col>
-                    <img src={like} alt="heart for like"></img>
-                    <p>{props.number}</p>
+                    <Stack direction="horizontal" gap={2}>
+                        <img src={like} alt="heart for like"></img>
+                        <p style={{paddingTop: "12px"}}>{props.number}</p>
+
+                    </Stack>
+                    
                 </Col>
-                <Col>March 2, 2021</Col>
+                <Col style={{paddingTop: "12px"}}>March 2, 2021</Col>
             </Row>
         </Container>
         </>

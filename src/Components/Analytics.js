@@ -6,19 +6,19 @@ import HeroDesktop from '../Assets/Hero Image (Desktop View).png';
 
 function Analytics(){
     return(
-        <>
-        <Container style={{backgroundColor: "#FBF8F3", padding: "30px"}}>
+        <div style={{backgroundColor: "#FBF8F3"}}>
+        <Container style={{padding: "2%"}}>
             <Row>
                 <Col lg='6'>
                     <Info/>
                 </Col>
                 <Col lg='6'>
-                    <img src={HeroDesktop} className="img-fluid" alt="Hero for desktop" style={{}}/>
+                    <img src={HeroDesktop} className="img-fluid" alt="Hero for desktop"/>
                 </Col>
             </Row>
         </Container>
         
-        </>
+        </div>
     )
 }
 

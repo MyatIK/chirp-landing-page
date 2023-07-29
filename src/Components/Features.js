@@ -6,17 +6,17 @@ import Card from 'react-bootstrap/Card';
 function Features(){
     return(
         <>
-        <Container>
+        <Container style={{margin: "4%"}}>
             <Row>
-                <Col lg="4">
+                <Col lg={{span: 4, offset:2}} >
                 <h2>Features that help you Tweet smarter.</h2>
                 </Col>
                 <Col>
                 </Col>
             </Row>
             <Row>
-                <Col lg='4' className="d-flex justify-content-middle">
-                    <Card>
+                <Col lg={{span: 4, offset:2}} >
+                    <Card >
                         <Card.Img/>
                         <Card.Body>
                             <Card.Title>Analytics</Card.Title>
@@ -26,7 +26,7 @@ function Features(){
                     </Card>
                 </Col>
                     
-                <Col lg='4'>
+                <Col lg={{span: 4}}>
                     <Card>
                         <Card.Img/>
                         <Card.Body>
@@ -39,7 +39,7 @@ function Features(){
 
             </Row>
             <Row>
-                <Col lg='4'>
+                <Col lg={{span: 4, offset:2}}>
                     <Card>
                         <Card.Img/>
                         <Card.Body>
@@ -51,7 +51,7 @@ function Features(){
 
                 </Col>
 
-                <Col lg='4'>
+                <Col lg={{span: 4}}>
                     <Card>
                         <Card.Img/>
                         <Card.Body>

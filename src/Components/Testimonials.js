@@ -9,9 +9,9 @@ import Card from 'react-bootstrap/Card';
 
 function Testimonials(){
     return(
-        <>
+        <div style={{backgroundColor:'#D6F5F5'}}>
         
-        <Container style={{backgroundColor:'#D6F5F5'}}>
+        <Container style={{margin: "4%", padding:"2%"}}>
             <Row>
                 <h2>What our customers say</h2>
             </Row>
@@ -38,7 +38,7 @@ function Testimonials(){
                
             </Row>
         </Container>
-        </>
+        </div>
     )
 }
 
