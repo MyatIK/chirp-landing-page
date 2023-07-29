@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/chirp-landing-page/static/css/main.073c9b0a.css",
-    "main.js": "/chirp-landing-page/static/js/main.5fc19ce1.js",
+    "main.css": "/chirp-landing-page/static/css/main.30dd5119.css",
+    "main.js": "/chirp-landing-page/static/js/main.1f36d64a.js",
     "static/js/787.d7e2f771.chunk.js": "/chirp-landing-page/static/js/787.d7e2f771.chunk.js",
-    "static/media/logo.svg": "/chirp-landing-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Hero Image (Desktop View).png": "/chirp-landing-page/static/media/Hero Image (Desktop View).22744d782b5ecef28c29.png",
+    "static/media/userAvatar02.svg": "/chirp-landing-page/static/media/userAvatar02.ae8d252075845ce61fb598cd3e843d4e.svg",
+    "static/media/userAvatar04.svg": "/chirp-landing-page/static/media/userAvatar04.9f01cd756ec9e24ef5253daacdea0ad7.svg",
+    "static/media/userAvatar01.svg": "/chirp-landing-page/static/media/userAvatar01.5e55693744a887c2abb11c429a5795b4.svg",
+    "static/media/Twitter (Blue).svg": "/chirp-landing-page/static/media/Twitter (Blue).751a8a2979b7246a87140a8a082873fa.svg",
+    "static/media/Twitter.svg": "/chirp-landing-page/static/media/Twitter.4bb8f3a43e4b29ed4d18a850779d4ae5.svg",
     "index.html": "/chirp-landing-page/index.html",
-    "main.073c9b0a.css.map": "/chirp-landing-page/static/css/main.073c9b0a.css.map",
-    "main.5fc19ce1.js.map": "/chirp-landing-page/static/js/main.5fc19ce1.js.map",
+    "static/media/Twitter (Black).svg": "/chirp-landing-page/static/media/Twitter (Black).dfbf1d319b445fd0f37d56310c86343e.svg",
+    "static/media/Like.svg": "/chirp-landing-page/static/media/Like.cb9d8f41df0850a6754e812131fb8dfc.svg",
+    "static/media/Checkmark.svg": "/chirp-landing-page/static/media/Checkmark.5bd3f63d5b0c5509934db43cdfffc109.svg",
+    "main.30dd5119.css.map": "/chirp-landing-page/static/css/main.30dd5119.css.map",
+    "main.1f36d64a.js.map": "/chirp-landing-page/static/js/main.1f36d64a.js.map",
     "787.d7e2f771.chunk.js.map": "/chirp-landing-page/static/js/787.d7e2f771.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.5fc19ce1.js"
+    "static/css/main.30dd5119.css",
+    "static/js/main.1f36d64a.js"
   ]
 }
