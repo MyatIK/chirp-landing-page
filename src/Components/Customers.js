@@ -10,14 +10,15 @@ function Customers(props){
         <>
         <Container style={{padding: "15px"}}>
             <Row>
-                <Col>
+
+                <Col lg='2' sm='2'>
                     <img src={props.profilePic} alt="headshot"/>
                 </Col>
-                <Col>
-                    <p>{props.name}</p>
-                    <p>{props.pname}</p>
+                <Col >
+                    <p><b>{props.name}</b></p>
+                    <p >{props.pname}</p>
                 </Col>
-                <Col>
+                <Col lg="3">
                     <img src={twitter} alt="Twitter logo"/>
                 </Col>
             </Row>

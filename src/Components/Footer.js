@@ -6,10 +6,10 @@ import twitter from '../Assets/Twitter (Black).svg';
 
 function Footer(){
     return(
-        <>
-            <Container flex style={{backgroundColor: '#D6F5F5'}}>
+        <div style={{backgroundColor: '#D6F5F5', padding: "1%"}}>
+            <Container flex >
                 <Row>
-                    <Col  style={{color: 'blue'}}>Chirp</Col>
+                    <Col  style={{color: 'blue'}}><i>Chirp</i></Col>
                     <Col >
                         <Stack direction="horizontal" gap={5} className="d-flex justify-content-end">
                             <img src={twitter} alt='Twitter logo in black'/>
@@ -21,7 +21,7 @@ function Footer(){
                 </Row>
 
             </Container>
-        </>
+        </div>
     )
 }
 

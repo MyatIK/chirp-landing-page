@@ -1,0 +1,52 @@
+.burger{
+    display: none;
+}
+
+.logo{
+    display:none;
+}
+
+.heroTablet{
+    display:none;
+}
+
+@media (max-width: 768px){
+    .heroTablet{
+        display: block;
+    }
+
+    .heroDesktop{
+        display:none;
+    }
+    
+}
+
+@media (max-width: 576px){
+    .burger{
+        display: inline;
+        float: right;
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+
+    .logo{
+        display: inline;
+        font-weight:bold;
+    }
+
+    .link{
+        display: none;
+        
+    }
+
+    .heroDesktop{
+        display: block;
+    }
+
+    .heroTablet{
+        display: none;
+    }
+}
+
+
+
